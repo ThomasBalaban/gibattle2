@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom'
 import Popular from './components/Popular'
+import Battle from './components/Battle'
 import './index.css'
 
 // props are to components as arguments are to functions
@@ -10,7 +11,8 @@ class App extends React.Component {
     render() {
         return (
             <div className='container'>
-                <Popular />
+                {/* <Popular /> */}
+                <Battle />
             </div>
         )
     }
